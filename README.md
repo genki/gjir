@@ -1,6 +1,6 @@
 # gjir
 
-Google Japanese Input Reloader
+Google Japanese Input Reloader for Mac OS
 
 
 ## Installation

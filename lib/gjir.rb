@@ -8,5 +8,5 @@ PROC_NAME = "GoogleJapaneseInput"
 pid = `ps aux | grep #{PROC_NAME}\$ | grep -v grep | awk '{print $2}'`.chomp
 
 # kill the process
-puts "Killing #{PROC_NAME} (pid:#{pid}) process..."
+puts "Restart #{PROC_NAME} (pid:#{pid}) process..."
 `kill -9 #{pid}` unless pid.empty?
